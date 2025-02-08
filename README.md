@@ -1,5 +1,7 @@
 # Mini Message Board
 
+[Mini Message Board - Live Demo](https://mini-message-board-eclb.onrender.com)
+
 This is my first backend project where I built a **mini message board** using **Express** and **EJS**. Users can submit and view messages on two pages: the **Home** page and the **New** page.
 
 ## Features

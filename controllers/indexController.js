@@ -18,7 +18,7 @@ const messages = [
 ];
 
 const indexController = (req, res) => {
-  res.render("index", { title: "mini-message-board", messages: messages });
+  res.render("index", { messages: messages });
 };
 
 const addMessage = (message) => {
