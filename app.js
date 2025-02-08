@@ -4,7 +4,6 @@ const path = require("path");
 const indexRouter = require("./routes/indexRouter");
 const newRouter = require("./routes/newRouter");
 
-// app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const assetsPath = path.join(__dirname, "public");
