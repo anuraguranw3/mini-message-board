@@ -4,6 +4,8 @@ const path = require("path");
 const indexRouter = require("./routes/indexRouter");
 const newRouter = require("./routes/newRouter");
 
+require("dotenv").config();
+
 app.use(express.urlencoded({ extended: true }));
 
 const assetsPath = path.join(__dirname, "public");
@@ -16,5 +18,5 @@ app.use("/", indexRouter);
 app.use("/new", newRouter);
 
 app.listen(3000, () => {
-    console.log("listening on port 3000");
+  console.log("listening on port 3000");
 });
